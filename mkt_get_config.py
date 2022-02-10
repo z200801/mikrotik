@@ -19,4 +19,4 @@ sshCli = ConnectHandler(**mikrotik_router_1)
 output = sshCli.send_command("interface print")
 print(output)
 
-# print(sshCli.find_prompt())
+print(sshCli.find_prompt())
