@@ -7,7 +7,7 @@ from netmiko import ConnectHandler
 
 mikrotik_router_1 = {
 'device_type': 'mikrotik_routeros',
-'host': '192.168.1.3',
+'host': '192.168.1.88',
 'port': '22',
 'username': 'admin',
 'password': 'admin'
